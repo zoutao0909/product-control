@@ -34,6 +34,23 @@ owner: zoutao0909
 
 ---
 
+## User's Global Rules（全局规则）
+
+1. **Primary language is Chinese**（默认中文沟通）
+2. **Use First Principles thinking**（采用第一性原理进行分析）
+3. **Coding tasks: Must provide pseudocode & ASCII architecture first and wait for confirmation**
+   - 任何代码类任务，先给出：
+     - 伪代码（pseudocode）
+     - ASCII 架构图
+   - 必须等待用户确认后再写正式代码
+4. **Scope: Strict minimal changes**（严格最小改动）
+   - 仅改与当前需求直接相关的最小范围
+   - 避免顺手重构、避免无关改动
+5. **Style: Comprehensive comments are required**（注释必须完整）
+   - 注释至少包含：步骤（steps）、输入（inputs）、输出（outputs）
+
+---
+
 ## 核心原则
 
 ### 1. 一切皆 Markdown
