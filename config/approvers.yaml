@@ -1,0 +1,24 @@
+approvers:
+  - id: zoutao0909
+    name: 涛 邹
+    email: zoutao0909@163.com
+    roles: [方案评审, 实施评审, 发布评审]
+
+approval_levels:
+  - level: 方案评审
+    description: 决定是否做、怎么做
+    approvers: [zoutao0909]
+    requireAll: false
+    timeout: 72h
+
+  - level: 实施评审
+    description: 代码改动是否可执行
+    approvers: [zoutao0909]
+    requireAll: false
+    timeout: 48h
+
+  - level: 发布评审
+    description: 最终发布决策
+    approvers: [zoutao0909]
+    requireAll: true
+    timeout: 24h

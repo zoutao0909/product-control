@@ -1,0 +1,30 @@
+products:
+  - id: mood-compass
+    name: Mood Compass
+    repo: zoutao0909/mood-compass
+    localPath: /root/.openclaw/workspace/mood-compass
+    buildPath: /data/ai-platform/builds/mood-compass
+    techStack:
+      language: typescript
+      framework: nextjs
+      testFramework: vitest
+    qualityGates:
+      gateA:
+        enabled: true
+        config:
+          eslint: true
+          typescript: true
+          security: true
+      gateB:
+        enabled: true
+        config:
+          coverage: 70
+      gateC:
+        enabled: true
+        config:
+          browsers: [chromium, firefox]
+      gateD:
+        enabled: true
+        config:
+          requireChangelog: true
+          requireRollbackPlan: true
