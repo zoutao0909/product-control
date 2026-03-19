@@ -1,3 +1,20 @@
+---
+name: platform-core-workflow
+summary: 平台级 Skill，定义需求识别、流程路由、执行步骤与留档规范。
+when_to_use:
+  - 收到任何新需求时
+  - 需要识别项目并选择开发流程时
+  - 需要统一执行与记录规范时
+inputs:
+  - 用户需求文本
+  - 项目 Skill 文档
+outputs:
+  - workflow 执行记录
+  - 开发决策与步骤状态
+version: 1.1
+owner: zoutao0909
+---
+
 # AI 交付平台 - 平台 Skill
 
 **版本**: 1.0

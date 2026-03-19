@@ -1,3 +1,18 @@
+---
+name: project-mood-compass
+summary: mood-compass 项目级 Skill，定义技术栈、架构、编码规范、测试与开发偏好。
+when_to_use:
+  - 需求被识别为 mood-compass 项目时
+  - 需要实现/修改 mood-compass 代码时
+  - 需要确认该项目开发规范时
+project: mood-compass
+repo: https://github.com/zoutao0909/mood-compass
+language: typescript
+framework: nextjs
+version: 1.1
+owner: zoutao0909
+---
+
 # Mood Compass - 项目 Skill
 
 **版本**: 1.0

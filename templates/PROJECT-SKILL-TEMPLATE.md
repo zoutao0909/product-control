@@ -1,3 +1,17 @@
+---
+name: project-{project-id}
+summary: {一句话描述此项目 skill 的作用}
+when_to_use:
+  - {何时加载}
+  - {何时执行}
+project: {project-id}
+repo: {repo-url}
+language: {language}
+framework: {framework}
+version: 1.0
+owner: {owner}
+---
+
 # {PROJECT-NAME} - 项目 Skill
 
 ## 项目信息
